@@ -1,0 +1,12 @@
+trends_analyst_task:
+  description: >
+    Conduct a thorough research about about topics from list: {topics}.\n
+    Analyse and identify which topics are the most relevant and trending
+    based on internet activity and number of searches for those topics
+    as well as number of related post and tags on social media platforms, especially X platform.
+
+  expected_output: >
+    Select one topic from provided list that is the most relevant, trending
+    and will be the most engaging for the social media audience.
+    Output should have original topic, description and url.
+  agent: trends_analyst

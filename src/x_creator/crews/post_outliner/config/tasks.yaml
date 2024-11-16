@@ -1,0 +1,21 @@
+research_task:
+  description: >
+    Conduct a thorough research about {topic} in context of {description}.
+    Make sure you find any interesting and relevant information given for creating the post outline and structure.
+  expected_output: >
+    A set of key points and important information about {topic} that will be used to create the outline.
+  agent: researcher
+
+outline_task:
+  description: >
+    Create a post outline for X platform with chapters in sequential order based on the research findings.
+    The initial chapters should contain topic introduction.
+    Follwing chapters should cover the main topics and subtopics in details.
+    Ending chapter should contain brew sumup and conclusion.
+    Ensure that each chapter outline has a title and a brief description that highlights the topics and subtopics to be covered.
+    It's important to note that each chapter is only going to be between 200 and 280 characters.
+    Also, make sure that you do not duplicate any chapters or topics in the outline.
+  expected_output: >
+    A list of chapter outlines, each PostChapterOutline should have title and description containing the main topics and subtopics to be covered.
+  agent: outliner
+

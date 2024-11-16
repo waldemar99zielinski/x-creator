@@ -1,0 +1,12 @@
+write_teaser:
+  description: >
+    Write an engaging teaser for the post that will be used to promote the post on social media platforms.
+    The teaser should engage reader by providing a brief overview of the post content and make them want to read the full post.
+    The teaser should be between 200 and 280 characters in length.
+
+    Here is the full content of the entire post: {post_content}
+
+  expected_output: >
+    An engaging teaser for the post that will be used to promote the post on social media platforms.
+    Its lenght should be between 200 and 280 characters.
+  agent: writer
